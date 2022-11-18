@@ -1,0 +1,144 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap'); */
+
+
+ .main {
+    width: 1920px;
+    height: 1080px;
+    padding: 0 12px 0 0;
+    background-color: #f6f6f6;
+ }
+ .navbar {
+    width: 214px;
+    height: 1054px;
+    margin: 13px 10px;
+    padding: 30px 0 34.6px;
+    border-radius: 27px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.09);
+    background-color: #fff;
+ }
+ .logo {
+    width: 86px;
+    height: 86px;
+    margin: 0 45.7px 14px;
+    border-radius: 43px;
+}
+.row {
+    margin: 0;
+
+}
+
+.row .nav li a {
+    width: 102px;
+    height: auto;
+    margin: 25px 12px 25px 7.6px;
+    font-family: Cairo;
+    font-size: 16px;
+    text-align: center;
+    color: #292929;
+    align-items: center;
+}
+.row .nav li a span {
+    width: 46px;
+    height: 30px;
+    margin: 39px 12px 51px 7.6px;
+    font-family: Cairo;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+.row .nav li a:hover{
+    color: #00c2cb;
+}
+
+.row .nav li a:active {
+    width: 214px;
+    height: 58px;
+    margin: 44px 0 39px;
+    padding: 11px 9.5px 13px 65px;
+    opacity: 0.69;
+    color: #00c2cb;
+    background-color: #f8f8f8;
+}
+.row .buttons .login {
+    width: 156px;
+    height: 40px;
+    margin: 50px 29px 3px;
+    border-radius: 10px;
+    border: solid 1px #7a7a7a;
+}
+.row .buttons .register {
+    width: 156px;
+    height: 40px;
+    margin: 23px 29px 15.7px;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #00c2cb;
+  
+}
+.row .social-icons {
+    align-items: center;
+    margin-right: 12px;
+}
+.row .container {
+    width: 1694px;
+    height: 1080px;
+    /* padding: 168px 134px 0 6px; */
+    /* opacity: 0; */
+    background-color: #fff;
+}
+
+.main .row .container h1 {
+    width: 245px;
+    height: 56px;
+    margin: 168px auto 0 auto;
+    font-family: Cairo;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #292929;
+}
+.line {
+    display: block;
+    width: 229px;
+    height: 2px;
+    margin: 10.5px 440px 50px auto;
+    background-color: #00c2cb;
+    }
+
+.card {
+    width: 380px;
+    height: 622px; 
+    margin: 40.5px 0 28px 20px;
+    padding: 107px 17px 135px 16px;
+    border-radius: 19px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+}
+.card img {
+    width: 350px;
+    height: 286px;
+    margin: 0 0 20px;
+    object-fit: contain;
+}
+.container h6 {
+    width: 751px;
+    height: 33px;
+    margin: 67px auto 81px auto;
+    font-family: Cairo;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #7a7a7a;
+}
