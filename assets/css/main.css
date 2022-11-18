@@ -112,10 +112,22 @@
     margin: 10.5px 440px 50px auto;
     background-color: #00c2cb;
     }
-
+.col-10 .container a{
+    border-radius: 19px;
+    color: #292929;
+}
 .card {
-    width: 380px;
+    width: 340px;
     height: 622px; 
+    margin: 40.5px 0 28px 0px;
+    padding: 107px 17px 135px 16px;
+    border-radius: 19px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+}
+.card:hover {
+    width: 462px;
+    height: 622px;
     margin: 40.5px 0 28px 20px;
     padding: 107px 17px 135px 16px;
     border-radius: 19px;
@@ -123,10 +135,21 @@
     background-color: #fff;
 }
 .card img {
-    width: 350px;
+    width: 320px;
     height: 286px;
     margin: 0 0 20px;
     object-fit: contain;
+}
+.card-title {
+    font-family: Cairo;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #292929;
 }
 .container h6 {
     width: 751px;
@@ -134,11 +157,6 @@
     margin: 67px auto 81px auto;
     font-family: Cairo;
     font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     text-align: center;
     color: #7a7a7a;
 }
